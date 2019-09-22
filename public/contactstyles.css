@@ -1,0 +1,98 @@
+body{
+    padding: 0;
+    margin:0;
+    background-size: 100%;
+    background-image: url("/public/assets/img4.jpg");
+    background-size: cover;
+    font-family: 'Montserrat';font-size: 22px;
+    
+    }
+    .grid-container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 140px auto auto auto auto 140px;
+    grid-template-rows: 120px auto auto auto 120px;
+    
+    }
+    
+    .grid-item1{
+    grid-column-end: span 6;
+    margin-bottom: 50px;
+    
+    }
+    #cc{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    /*                            opacity: 1;*/
+    }
+    #about,#contact{
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 50px;
+    color: white;
+    }
+    
+    
+    * {
+    outline: none;
+    border: none;
+    padding: 0;
+    }
+    
+    body {
+    background-color: rgb(71, 136, 135);
+    }
+    a:link {
+        text-decoration: none;
+    }
+    a:visited {
+        text-decoration: none;
+    }
+    a:link {
+        color: white;
+    }
+    a:visited {
+        color: white;
+    }
+    a:hover {
+        color: white;
+    }
+    a:active {
+        color: white;
+    }
+    
+    input[type=text], select, textarea {
+      width: 100%; /* Full width */
+      padding: 12px; /* Some padding */ 
+      border: 1px solid #ccc; /* Gray border */
+      border-radius: 4px; /* Rounded borders */
+      box-sizing: border-box; /* Make sure that padding and width stays in place */
+      margin-top: 6px; /* Add a top margin */
+      margin-bottom: 16px; /* Bottom margin */
+      resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+    
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    /* Add a background color and some padding around the form */
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    

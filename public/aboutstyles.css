@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin:0;
+    background-size: 100%;
+    background-image: url("/public/assets/img4.jpg");
+    background-size: cover;
+    font-family: 'Montserrat';font-size: 22px;
+    
+    }
+    .grid-container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 140px auto auto auto auto 140px;
+    grid-template-rows: 120px auto auto auto 120px;
+    
+    }
+    
+    .grid-item1{
+    grid-column-end: span 6;
+    margin-bottom: 50px;
+    
+    }
+    #cc{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    /*                            opacity: 1;*/
+    }
+    #about,#contact{
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 50px;
+    color: white;
+    }
+    
+    
+    * {
+    outline: none;
+    border: none;
+    padding: 0;
+    }
+    
+    body {
+    background-color: rgb(71, 136, 135);
+    }
+    a:link {
+        text-decoration: none;
+    }
+    a:visited {
+        text-decoration: none;
+    }
+    a:link {
+        color: white;
+    }
+    a:visited {
+        color: white;
+    }
+    a:hover {
+        color: white;
+    }
+    a:active {
+        color: white;
+    }
+    
+    .grid-item5,.grid-item10,.grid-item12,.grid-item18,.grid-item17,.grid-item4,.grid-item11{
+                                color: white;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border: 0px cyan solid;                            
+                }
+    .fill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden
+    }
+    .fill img {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%
+    }
+    .card-body{
+        color: black;
+    }       
