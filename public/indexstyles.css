@@ -14,15 +14,7 @@ body{
     grid-template-rows: 120px auto auto auto 120px;
 
 }
-/*                       .grid-item3,.grid-item6,.grid-it*em10,.grid-item9,.grid-item12,.grid-item18,.grid-item16,.grid-item17,.grid-item15,.grid-item11{
-    background-color: #4DF8FF;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 0px cyan solid;
-    opacity: 0.7;                                
-}*/
+
 .grid-item1{
     grid-column-end: span 6;
     margin-bottom: 50px;
